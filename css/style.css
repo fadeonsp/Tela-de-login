@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #323232;
+  border: none;
+}
+body {
+  background-color: aliceblue;
+}
+a,
+label {
+  font-size: 0.8rem;
+}
+a:hover {
+  color: #08558b;
+}
+#login-container {
+  background-color: #fff;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 30px;
+  margin-top: 10vh;
+  border-radius: 10px;
+  text-align: center;
+}
+form {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+label,
+input {
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+label {
+  font-weight: bold;
+}
+input {
+  padding: 10px;
+  border-bottom: 1px solid #323232;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+#forgot-pass {
+  text-align: right;
+  display: block;
+}
+input[type="submit"] {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  height: 40px;
+  border-radius: 20px;
+  margin-top: 30px;
+  color: #fff;
+  background-color: #08558b;
+  cursor: pointer;
+}
+#midia-social,
+#midia-social p {
+  margin-bottom: 20px;
+}
+#midia-social i {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  line-height: 40px;
+  color: #fff;
+  margin: 0 5px;
+}
+.fa-facebook-f {
+  background-color: #3b5998;
+}
+.fa-linkedin {
+  background-color: #0077b5;
+}
+.fa-google {
+  background-color: #ff0000;
+}
+#register p {
+  margin-bottom: 10px;
+}
